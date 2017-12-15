@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BloomboxClient Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/BloomboxClient" class="dashAnchor"></a>
+    <a title="BloomboxClient Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">Client Docs</a> (89% documented)</p>
+        <p class="header-right"><a href="https://github.com/bloombox/Swift"><img src="../img/gh.png"/>View on GitHub</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fbloombox%2Egithub%2Eio%2FSwift%2Fdocsets%2FClient%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">Client Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        BloomboxClient Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/BloomboxClient.html">BloomboxClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BloomboxClient/Settings.html">– Settings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Services.html">Services</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ShopClient.html">ShopClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:6Client09TelemetryA0C">TelemetryClient</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:6Client20__BLOOMBOX_VARIANT__SSv">__BLOOMBOX_VARIANT__</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:6Client20__BLOOMBOX_VERSION__SSv">__BLOOMBOX_VERSION__</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/CommercialEvent.html">CommercialEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EventCollection.html">EventCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GenericEventError.html">GenericEventError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/IdentityEvent.html">IdentityEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ShopClientError.html">ShopClientError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/EventContextProto.html">EventContextProto</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/EventContextData.html">EventContextData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/RPCService.html">RPCService</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/EventContext.html">EventContext</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client9BoolValuea">BoolValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client12CheckZipcodea">CheckZipcode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client12EnrollMembera">EnrollMember</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client14EventTelemetrya">EventTelemetry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client014EventTelemetryA5Errora">EventTelemetryClientError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client20GenericEventCallbacka">GenericEventCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client8GetOrdera">GetOrder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client12PingCallbacka">PingCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client13ProtobufValuea">ProtobufValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client4Shopa">Shop</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client8ShopInfoa">ShopInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client8ShopPinga">ShopPing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client11SubmitOrdera">SubmitOrder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client14TelemetryEventa">TelemetryEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client19TelemetryEventBatcha">TelemetryEventBatch</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client18TelemetryExceptiona">TelemetryException</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client13TelemetryPinga">TelemetryPing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client4Usera">User</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client12VerifyMembera">VerifyMember</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>BloomboxClient</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">BloomboxClient</span></code></pre>
+
+                </div>
+              </div>
+            <p>Main client class. Provides access to service-specific clients, and initializes basic settings
+or context required for communication with servers.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Client08BloomboxA0C8SettingsV"></a>
+                    <a name="//apple_ref/swift/Struct/Settings" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Client08BloomboxA0C8SettingsV">Settings</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specifies settings for an instance of BloomboxClient.</p>
+
+                        <a href="../Classes/BloomboxClient/Settings.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Settings</span><span class="p">:</span> <span class="kt"><a href="../Protocols/EventContextData.html">EventContextData</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/bloombox/Swift/tree/master/Sources/Client/BloomboxClient.swift#L30-L87">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Client08BloomboxA0CA2C8SettingsVSg8settings_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(settings:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Client08BloomboxA0CA2C8SettingsVSg8settings_tcfc">init(settings:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Main initializer. Defaults settings to sensible values, if none are provided.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">settings</span><span class="p">:</span> <span class="kt"><a href="../Classes/BloomboxClient/Settings.html">Settings</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/bloombox/Swift/tree/master/Sources/Client/BloomboxClient.swift#L96-L103">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Client08BloomboxA0C8settingsAC8SettingsVv"></a>
+                    <a name="//apple_ref/swift/Property/settings" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Client08BloomboxA0C8settingsAC8SettingsVv">settings</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Fetch active settings for this client.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">settings</span><span class="p">:</span> <span class="kt"><a href="../Classes/BloomboxClient/Settings.html">Settings</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/bloombox/Swift/tree/master/Sources/Client/BloomboxClient.swift#L110-L112">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Client08BloomboxA0C8servicesAA8ServicesCv"></a>
+                    <a name="//apple_ref/swift/Property/services" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Client08BloomboxA0C8servicesAA8ServicesCv">services</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Public access to the mounted services.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">services</span><span class="p">:</span> <span class="kt"><a href="../Classes/Services.html">Services</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/bloombox/Swift/tree/master/Sources/Client/BloomboxClient.swift#L117-L119">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Client08BloomboxA0C4shopAA04ShopA0Cv"></a>
+                    <a name="//apple_ref/swift/Property/shop" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Client08BloomboxA0C4shopAA04ShopA0Cv">shop</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Public access to the Shop service client.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">shop</span><span class="p">:</span> <span class="kt"><a href="../Classes/ShopClient.html">ShopClient</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/bloombox/Swift/tree/master/Sources/Client/BloomboxClient.swift#L124-L126">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Client08BloomboxA0C9telemetryAA09TelemetryA0Cv"></a>
+                    <a name="//apple_ref/swift/Property/telemetry" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Client08BloomboxA0C9telemetryAA09TelemetryA0Cv">telemetry</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Public access to the Telemetry service client.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">telemetry</span><span class="p">:</span> <span class="kt"><a href="../Classes.html#/s:6Client09TelemetryA0C">TelemetryClient</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/bloombox/Swift/tree/master/Sources/Client/BloomboxClient.swift#L131-L133">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>Copyright (&copy;) 2017, Bloombox, LLC. Released under the Apache License v2.0.</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

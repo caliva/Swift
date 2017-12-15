@@ -1,0 +1,82 @@
+{
+  "warnings": [
+    {
+      "file": "/Volumes/PROPHET/Vault/Code/Bloombox/Client/Swift/Sources/Client/EventCollection.swift",
+      "line": 16,
+      "symbol": "EventCollection.named",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/PROPHET/Vault/Code/Bloombox/Client/Swift/Sources/Client/EventCollection.swift",
+      "line": 17,
+      "symbol": "EventCollection.commercial",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/PROPHET/Vault/Code/Bloombox/Client/Swift/Sources/Client/EventCollection.swift",
+      "line": 18,
+      "symbol": "EventCollection.identity",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/PROPHET/Vault/Code/Bloombox/Client/Swift/Sources/Client/EventCollection.swift",
+      "line": 48,
+      "symbol": "CommercialEvent.impression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/PROPHET/Vault/Code/Bloombox/Client/Swift/Sources/Client/EventCollection.swift",
+      "line": 49,
+      "symbol": "CommercialEvent.view",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/PROPHET/Vault/Code/Bloombox/Client/Swift/Sources/Client/EventCollection.swift",
+      "line": 50,
+      "symbol": "CommercialEvent.action",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/PROPHET/Vault/Code/Bloombox/Client/Swift/Sources/Client/EventCollection.swift",
+      "line": 67,
+      "symbol": "IdentityEvent.action",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/PROPHET/Vault/Code/Bloombox/Client/Swift/Sources/Client/RPCLogic.swift",
+      "line": 83,
+      "symbol": "RPCService.init(address:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/PROPHET/Vault/Code/Bloombox/Client/Swift/Sources/Client/RPCLogic.swift",
+      "line": 84,
+      "symbol": "RPCService.init(address:certificates:host:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/PROPHET/Vault/Code/Bloombox/Client/Swift/Sources/Client/ShopClient.swift",
+      "line": 31,
+      "symbol": "ShopClientError.invalidPartnerCode",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/PROPHET/Vault/Code/Bloombox/Client/Swift/Sources/Client/ShopClient.swift",
+      "line": 32,
+      "symbol": "ShopClientError.invalidLocationCode",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Volumes/PROPHET/Vault/Code/Bloombox/Client/Swift"
+}

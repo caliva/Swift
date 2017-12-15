@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ShopClient Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/ShopClient" class="dashAnchor"></a>
+    <a title="ShopClient Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">Client Docs</a> (89% documented)</p>
+        <p class="header-right"><a href="https://github.com/bloombox/Swift"><img src="../img/gh.png"/>View on GitHub</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fbloombox%2Egithub%2Eio%2FSwift%2Fdocsets%2FClient%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">Client Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        ShopClient Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/BloomboxClient.html">BloomboxClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BloomboxClient/Settings.html">– Settings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Services.html">Services</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ShopClient.html">ShopClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:6Client09TelemetryA0C">TelemetryClient</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:6Client20__BLOOMBOX_VARIANT__SSv">__BLOOMBOX_VARIANT__</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:6Client20__BLOOMBOX_VERSION__SSv">__BLOOMBOX_VERSION__</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/CommercialEvent.html">CommercialEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EventCollection.html">EventCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GenericEventError.html">GenericEventError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/IdentityEvent.html">IdentityEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ShopClientError.html">ShopClientError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/EventContextProto.html">EventContextProto</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/EventContextData.html">EventContextData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/RPCService.html">RPCService</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/EventContext.html">EventContext</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client9BoolValuea">BoolValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client12CheckZipcodea">CheckZipcode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client12EnrollMembera">EnrollMember</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client14EventTelemetrya">EventTelemetry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client014EventTelemetryA5Errora">EventTelemetryClientError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client20GenericEventCallbacka">GenericEventCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client8GetOrdera">GetOrder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client12PingCallbacka">PingCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client13ProtobufValuea">ProtobufValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client4Shopa">Shop</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client8ShopInfoa">ShopInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client8ShopPinga">ShopPing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client11SubmitOrdera">SubmitOrder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client14TelemetryEventa">TelemetryEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client19TelemetryEventBatcha">TelemetryEventBatch</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client18TelemetryExceptiona">TelemetryException</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client13TelemetryPinga">TelemetryPing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client4Usera">User</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Client12VerifyMembera">VerifyMember</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ShopClient</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">ShopClient</span><span class="p">:</span> <span class="kt">RemoteService</span></code></pre>
+
+                </div>
+              </div>
+            <p>Provides functionality for the Shop API, which supports operations related to pickup or
+delivery ordering, member verification and enrollment, and basic shop operations.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Shop%20Info"></a>
+                <a name="//apple_ref/swift/Section/Shop Info" class="dashAnchor"></a>
+                <a href="#/Shop%20Info">
+                  <h3 class="section-name">Shop Info</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Client04ShopA0C8shopInfo6Schema09Services_b4_V1_bD0V8ResponseVSSSg7partner_AJ8locationtKF"></a>
+                    <a name="//apple_ref/swift/Method/shopInfo(partner:location:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Client04ShopA0C8shopInfo6Schema09Services_b4_V1_bD0V8ResponseVSSSg7partner_AJ8locationtKF">shopInfo(partner:location:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Retrieve info about a particular storefront, specifically, its open/closed status,
+hours, and metadata.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">shopInfo</span><span class="p">(</span><span class="nv">partner</span><span class="p">:</span> <span class="kt">PartnerCode</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                     <span class="nv">location</span><span class="p">:</span> <span class="kt">LocationCode</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:6Client8ShopInfoa">ShopInfo</a></span><span class="o">.</span><span class="kt">Response</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/bloombox/Swift/tree/master/Sources/Client/ShopClient.swift#L103-L115">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Client04ShopA0C8shopInfo6Schema09Services_b4_V1_bbD4CallCSSSg7partner_AH8locationy4gRPC0H6ResultV_AE0f1_b1_g1_bD0V8ResponseVSgtc8callbacktKF"></a>
+                    <a name="//apple_ref/swift/Method/shopInfo(partner:location:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Client04ShopA0C8shopInfo6Schema09Services_b4_V1_bbD4CallCSSSg7partner_AH8locationy4gRPC0H6ResultV_AE0f1_b1_g1_bD0V8ResponseVSgtc8callbacktKF">shopInfo(partner:location:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Retrieve info, asynchronously, about a particular storefront, specifically, its
+open/closed status, hours, and metadata.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">shopInfo</span><span class="p">(</span><span class="nv">partner</span><span class="p">:</span> <span class="kt">PartnerCode</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                     <span class="nv">location</span><span class="p">:</span> <span class="kt">LocationCode</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                     <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">ShopInfoCallback</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">ShopInfoCall</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/bloombox/Swift/tree/master/Sources/Client/ShopClient.swift#L121-L136">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Check%20Zipcode"></a>
+                <a name="//apple_ref/swift/Section/Check Zipcode" class="dashAnchor"></a>
+                <a href="#/Check%20Zipcode">
+                  <h3 class="section-name">Check Zipcode</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Client04ShopA0C12checkZipcode6Schema09Services_b9_V1_CheckD0V8ResponseVSS7zipcode_SSSg7partnerAK8locationtKF"></a>
+                    <a name="//apple_ref/swift/Method/checkZipcode(zipcode:partner:location:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Client04ShopA0C12checkZipcode6Schema09Services_b9_V1_CheckD0V8ResponseVSS7zipcode_SSSg7partnerAK8locationtKF">checkZipcode(zipcode:partner:location:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Check a zipcode for delivery eligibility, including any order minimum required, if
+specified by the server.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">checkZipcode</span><span class="p">(</span><span class="nv">zipcode</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+                         <span class="nv">partner</span><span class="p">:</span> <span class="kt">PartnerCode</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                         <span class="nv">location</span><span class="p">:</span> <span class="kt">LocationCode</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:6Client12CheckZipcodea">CheckZipcode</a></span><span class="o">.</span><span class="kt">Response</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/bloombox/Swift/tree/master/Sources/Client/ShopClient.swift#L143-L157">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Client04ShopA0C12checkZipcode6Schema09Services_b4_V1_b5CheckD4CallCSS7zipcode_SSSg7partnerAI8locationy4gRPC0I6ResultV_AE0f1_b1_g1_hD0V8ResponseVSgtc8callbacktKF"></a>
+                    <a name="//apple_ref/swift/Method/checkZipcode(zipcode:partner:location:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Client04ShopA0C12checkZipcode6Schema09Services_b4_V1_b5CheckD4CallCSS7zipcode_SSSg7partnerAI8locationy4gRPC0I6ResultV_AE0f1_b1_g1_hD0V8ResponseVSgtc8callbacktKF">checkZipcode(zipcode:partner:location:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Check a zipcode, asynchronously, for delivery eligibility, including any order
+minimum required, if specified by the server.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">checkZipcode</span><span class="p">(</span><span class="nv">zipcode</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+                         <span class="nv">partner</span><span class="p">:</span> <span class="kt">PartnerCode</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                         <span class="nv">location</span><span class="p">:</span> <span class="kt">LocationCode</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                         <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">CheckZipcodeCallback</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">CheckZipcodeCall</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/bloombox/Swift/tree/master/Sources/Client/ShopClient.swift#L163-L180">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Verify%20Member"></a>
+                <a name="//apple_ref/swift/Section/Verify Member" class="dashAnchor"></a>
+                <a href="#/Verify%20Member">
+                  <h3 class="section-name">Verify Member</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Client04ShopA0C12verifyMember6Schema09Services_b10_V1_VerifyD0V8ResponseVSS5email_SSSg7partnerAK8locationtKF"></a>
+                    <a name="//apple_ref/swift/Method/verifyMember(email:partner:location:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Client04ShopA0C12verifyMember6Schema09Services_b10_V1_VerifyD0V8ResponseVSS5email_SSSg7partnerAK8locationtKF">verifyMember(email:partner:location:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Verify a member account by their email address. <q>Verify</q> in this context checks that
+they have a valid account, membership with the partner/location in question, and have
+no expired documents, like medical recommendations and IDs.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">verifyMember</span><span class="p">(</span><span class="nv">email</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+                         <span class="nv">partner</span><span class="p">:</span> <span class="kt">PartnerCode</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                         <span class="nv">location</span><span class="p">:</span> <span class="kt">LocationCode</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:6Client12VerifyMembera">VerifyMember</a></span><span class="o">.</span><span class="kt">Response</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/bloombox/Swift/tree/master/Sources/Client/ShopClient.swift#L188-L202">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Client04ShopA0C12verifyMember6Schema09Services_b4_V1_b6VerifyD4CallCSS5email_SSSg7partnerAI8locationy4gRPC0I6ResultV_AE0f1_b1_g1_hD0V8ResponseVSgtc8callbacktKF"></a>
+                    <a name="//apple_ref/swift/Method/verifyMember(email:partner:location:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Client04ShopA0C12verifyMember6Schema09Services_b4_V1_b6VerifyD4CallCSS5email_SSSg7partnerAI8locationy4gRPC0I6ResultV_AE0f1_b1_g1_hD0V8ResponseVSgtc8callbacktKF">verifyMember(email:partner:location:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Verify a member account, asynchronously, by their email address. <q>Verify</q> in this
+context checks that they have a valid account, membership with the partner/location in
+question, and have no expired documents, like medical recommendations and IDs.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">verifyMember</span><span class="p">(</span><span class="nv">email</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+                         <span class="nv">partner</span><span class="p">:</span> <span class="kt">PartnerCode</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                         <span class="nv">location</span><span class="p">:</span> <span class="kt">LocationCode</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                         <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">VerifyMemberCallback</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">VerifyMemberCall</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/bloombox/Swift/tree/master/Sources/Client/ShopClient.swift#L209-L226">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Enroll%20Member"></a>
+                <a name="//apple_ref/swift/Section/Enroll Member" class="dashAnchor"></a>
+                <a href="#/Enroll%20Member">
+                  <h3 class="section-name">Enroll Member</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Client04ShopA0C12enrollMember6Schema09Services_b10_V1_EnrollD0V8ResponseVAG7RequestV10enrollment_tKF"></a>
+                    <a name="//apple_ref/swift/Method/enrollMember(enrollment:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Client04ShopA0C12enrollMember6Schema09Services_b10_V1_EnrollD0V8ResponseVAG7RequestV10enrollment_tKF">enrollMember(enrollment:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Enroll a member for a new account, and have them auto-join the enrolling partner
+location. Under the hood, this creates an account, writes it to the partner systems,
+and then auto-creates a membership.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">enrollMember</span><span class="p">(</span><span class="nv">enrollment</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:6Client12EnrollMembera">EnrollMember</a></span><span class="o">.</span><span class="kt">Request</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:6Client12EnrollMembera">EnrollMember</a></span><span class="o">.</span><span class="kt">Response</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/bloombox/Swift/tree/master/Sources/Client/ShopClient.swift#L234-L236">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Client04ShopA0C12enrollMember6Schema09Services_b4_V1_b6EnrollD4CallCAE0f1_b1_g1_hD0V7RequestV10enrollment_y4gRPC0I6ResultV_AI8ResponseVSgtc8callbacktKF"></a>
+                    <a name="//apple_ref/swift/Method/enrollMember(enrollment:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Client04ShopA0C12enrollMember6Schema09Services_b4_V1_b6EnrollD4CallCAE0f1_b1_g1_hD0V7RequestV10enrollment_y4gRPC0I6ResultV_AI8ResponseVSgtc8callbacktKF">enrollMember(enrollment:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Enroll a member for a new account, asynchronously, and have them auto-join the enrolling
+partner location. Under the hood, this creates an account, writes it to the partner
+systems, and then auto-creates a membership.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">enrollMember</span><span class="p">(</span><span class="nv">enrollment</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:6Client12EnrollMembera">EnrollMember</a></span><span class="o">.</span><span class="kt">Request</span><span class="p">,</span>
+                         <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">EnrollMemberCallback</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">EnrollMemberCall</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/bloombox/Swift/tree/master/Sources/Client/ShopClient.swift#L243-L248">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Get%20Order"></a>
+                <a name="//apple_ref/swift/Section/Get Order" class="dashAnchor"></a>
+                <a href="#/Get%20Order">
+                  <h3 class="section-name">Get Order</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Client04ShopA0C8getOrder6Schema09Services_b7_V1_GetD0V8ResponseVSS2id_SSSg7partnerAK8locationtKF"></a>
+                    <a name="//apple_ref/swift/Method/getOrder(id:partner:location:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Client04ShopA0C8getOrder6Schema09Services_b7_V1_GetD0V8ResponseVSS2id_SSSg7partnerAK8locationtKF">getOrder(id:partner:location:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Retrieve information about a previously-submitted pickup or delivery order. Includes
+status information and an action log.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getOrder</span><span class="p">(</span><span class="nv">id</span><span class="p">:</span> <span class="kt">OrderID</span><span class="p">,</span>
+                     <span class="nv">partner</span><span class="p">:</span> <span class="kt">PartnerCode</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                     <span class="nv">location</span><span class="p">:</span> <span class="kt">LocationCode</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:6Client8GetOrdera">GetOrder</a></span><span class="o">.</span><span class="kt">Response</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/bloombox/Swift/tree/master/Sources/Client/ShopClient.swift#L255-L269">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Client04ShopA0C8getOrder6Schema09Services_b4_V1_b3GetD4CallCSS2id_SSSg7partnerAI8locationy4gRPC0I6ResultV_AE0f1_b1_g1_hD0V8ResponseVSgtc8callbacktKF"></a>
+                    <a name="//apple_ref/swift/Method/getOrder(id:partner:location:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Client04ShopA0C8getOrder6Schema09Services_b4_V1_b3GetD4CallCSS2id_SSSg7partnerAI8locationy4gRPC0I6ResultV_AE0f1_b1_g1_hD0V8ResponseVSgtc8callbacktKF">getOrder(id:partner:location:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Retrieve information, asynchronously, about a previously-submitted pickup or delivery
+order. Includes status information and an action log.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getOrder</span><span class="p">(</span><span class="nv">id</span><span class="p">:</span> <span class="kt">OrderID</span><span class="p">,</span>
+                     <span class="nv">partner</span><span class="p">:</span> <span class="kt">PartnerCode</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                     <span class="nv">location</span><span class="p">:</span> <span class="kt">LocationCode</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                     <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">GetOrderCallback</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">GetOrderCall</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/bloombox/Swift/tree/master/Sources/Client/ShopClient.swift#L275-L292">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Submit%20Order"></a>
+                <a name="//apple_ref/swift/Section/Submit Order" class="dashAnchor"></a>
+                <a href="#/Submit%20Order">
+                  <h3 class="section-name">Submit Order</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Client04ShopA0C11submitOrder6Schema09Services_b10_V1_SubmitD0V8ResponseVAE09Commerce_D0V5order_SSSg0K2IDAM7partnerAM8locationtKF"></a>
+                    <a name="//apple_ref/swift/Method/submitOrder(order:orderID:partner:location:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Client04ShopA0C11submitOrder6Schema09Services_b10_V1_SubmitD0V8ResponseVAE09Commerce_D0V5order_SSSg0K2IDAM7partnerAM8locationtKF">submitOrder(order:orderID:partner:location:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Submit a new order for pickup or delivery. Requires an existing member account,
+acquireable via <code>enrollMember</code>, and valid item keys for each item desired as part
+of the order.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">submitOrder</span><span class="p">(</span><span class="nv">order</span><span class="p">:</span> <span class="kt">Order</span><span class="p">,</span>
+                        <span class="n">orderID</span> <span class="nv">id</span><span class="p">:</span> <span class="kt">OrderID</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                        <span class="nv">partner</span><span class="p">:</span> <span class="kt">PartnerCode</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                        <span class="nv">location</span><span class="p">:</span> <span class="kt">LocationCode</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Typealiases.html#/s:6Client11SubmitOrdera">SubmitOrder</a></span><span class="o">.</span><span class="kt">Response</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/bloombox/Swift/tree/master/Sources/Client/ShopClient.swift#L300-L315">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Client04ShopA0C11submitOrder6Schema09Services_b4_V1_b6SubmitD4CallCAE09Commerce_D0V5order_SSSg0K2IDAK7partnerAK8locationy4gRPC0I6ResultV_AE0f1_b1_g1_hD0V8ResponseVSgtc8callbacktKF"></a>
+                    <a name="//apple_ref/swift/Method/submitOrder(order:orderID:partner:location:callback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Client04ShopA0C11submitOrder6Schema09Services_b4_V1_b6SubmitD4CallCAE09Commerce_D0V5order_SSSg0K2IDAK7partnerAK8locationy4gRPC0I6ResultV_AE0f1_b1_g1_hD0V8ResponseVSgtc8callbacktKF">submitOrder(order:orderID:partner:location:callback:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Submit a new order, asynchronously, for pickup or delivery. Requires an existing
+member account, acquireable via <code>enrollMember</code>, and valid item keys for each item
+desired as part of the order.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">submitOrder</span><span class="p">(</span><span class="nv">order</span><span class="p">:</span> <span class="kt">Order</span><span class="p">,</span>
+                        <span class="n">orderID</span> <span class="nv">id</span><span class="p">:</span> <span class="kt">OrderID</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                        <span class="nv">partner</span><span class="p">:</span> <span class="kt">PartnerCode</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                        <span class="nv">location</span><span class="p">:</span> <span class="kt">LocationCode</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                        <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">SubmitOrderCallback</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">SubmitOrderCall</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/bloombox/Swift/tree/master/Sources/Client/ShopClient.swift#L322-L340">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>Copyright (&copy;) 2017, Bloombox, LLC. Released under the Apache License v2.0.</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
